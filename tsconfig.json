@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es5", // TSはメジャーなECMAScript 5に変換
+    "module": "es2015", // TSのモジュールはES Modulesとして出力
+    "moduleResolution": "node", //モジュール解決方式はnode式にする
+    "strict": true, // any型を禁止する、きびしめのコンパイル形式
+    // "sourceMap": true // デバッグ実行するときは必要
+    "lib": ["ES2015","DOM"]
+  }
+}

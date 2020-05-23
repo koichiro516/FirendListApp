@@ -1,0 +1,75 @@
+.column {
+  color: #4CAF50;
+}
+
+#friendListTable {
+  border-collapse:collapse;
+  width: 100%;
+}
+
+#friendListTable tr:first-child {
+  border-bottom: 3px solid #e1e1e1;
+}
+
+body {
+  margin: 5%;
+}
+
+.base-anchor {
+  background-color: #4CAF50;
+  border-bottom: solid 2px #4CAF50;
+  border-right: solid 2px #4CAF50;
+  border-radius: 5px;
+  color: #FFF;
+  text-decoration: none;
+  padding: 4px;
+  text-align: center;
+  margin-right: 10px;
+  font-size: 13px
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.title > a {
+  margin-left: 5px;
+  border-radius: 100px;
+}
+
+.friend-list {
+  width: 100%;
+  border: 2px solid #c1c1c1;;
+  border-radius: 10px;
+  margin: 3px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+.button-wrapper{
+  text-align:center;
+}
+
+.button-wrapper > button {
+  background-color: #00cd6a;
+  border-bottom: solid 2px #4CAF50;
+  border-right: solid 2px #4CAF50;
+  border-radius: 15px;
+  color: #FFF;
+  text-decoration: none;
+  padding: 8px;
+  text-align: center;
+  width:70%;
+  font-size: 16px;
+}
+
+.title::before {
+  content: "| ";
+  color: #00dd72;
+  font-size: 20px;
+  font-weight: bold;
+}
